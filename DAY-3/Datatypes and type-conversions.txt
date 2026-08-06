@@ -1,0 +1,104 @@
+#Data Types
+#int, float, complex
+Program ex:
+a = 12
+type(a) (Used in certain count of whole numbers)
+<class 'int'>
+b= 13.4
+type(b) (Used in more specific involver decimals)
+<class 'float'>
+c= 12 +4j
+type(c) (Used at uncertain calculations)
+<class 'complex'>
+#str, list, Tuple
+str: collection chars enclosed blw ' ' or " ".
+Mutable and un mutable str : 
+Mutable str allow changing a value at particular object reference after declaration.
+ex:
+s = 'Codegnan'
+id(s)
+1904716291376
+s +='Python'
+s
+'CodegnanPython'
+id(s)
+1904679599664
+str allow duplictes
+s = 'aaaaaaa'
+type(s)
+#list is collecion of elements enclosed blw '[]'. list is mutable.list allows duplicates, dynamically shapes, allows heterogenous datatypes. It is also Ordered.
+ex:
+l = [1,2,3,4,5,5,6,]
+type(l)
+<class 'list'>
+id(l)
+1904713561728
+l.append(12)
+l
+[1, 2, 3, 4, 5, 5, 6, 12]
+id(l)
+1904713561728
+l = [1,12.3, 'str', [1,23]]
+l
+[1, 12.3, 'str', [1, 23]]
+#Tuple is a collection of object enclosed '<>'. 
+It is immutable, 
+it is ordered, 
+It allows duplicates,
+It allows heterogenous object,
+It is fix in size.
+t = (l,l,l,l,l)
+t
+([1, 12.3, 'str', [1, 23]], [1, 12.3, 'str', [1, 23]], [1, 12.3, 'str', [1, 23]], [1, 12.3, 'str', [1, 23]], [1, 12.3, 'str', [1, 23]])
+t=(1,1,1,1)
+t
+(1, 1, 1, 1)
+t =( 1, 1.5, 'Number')
+t
+(1, 1.5, 'Number')
+
+#set is a collection elements enclosed between '{}'.
+It is mutable,
+Not allows duplicates,
+it is dynamically resized,
+It allows heterogenous elements to some extent.
+it is unordered.
+ex:
+a={ 1,12.3, "set"}
+a
+{1, 'set', 12.3}
+se = {80, 20, 70, 14, 24,25, 78}
+id(se)
+1904715769312
+se
+{80, 20, 70, 25, 24, 78, 14}
+#frozenset: A set which is not Mutable.
+ex:
+T = frozenset(["Fare", "Well"])
+T
+frozenset({'Well', 'Fare'})
+type(T)
+<class 'frozenset'>
+#dictionary is the collection Key and value pairs. 
+It is mutable, doesnot allow duplicates.
+ex:
+student = {
+"name": "Rohit",
+"age": 21,
+"course": "Python"
+}
+type(student)
+<class 'dict'>
+E = { "name" : "java",
+      "workingdays" : 45,
+      "assement": "grandtest"}
+
+E
+{'name': 'java', 'workingdays': 45, 'assement': 'grandtest'}
+
+#Boolean is is variable which only works with True or false or 0 and 1.
+ex:
+Log_in = true
+Log_out = false
+type(Log_in)
+<class 'bool'>
