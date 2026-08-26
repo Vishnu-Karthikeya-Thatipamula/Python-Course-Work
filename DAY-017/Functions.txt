@@ -1,0 +1,15 @@
+What is a Function in Python?
+At its core, a function is a named, reusable block of code designed to perform a specific, single task. It only executes when you explicitly 
+"call" (invoke) it. You can pass data into a function (parameters), and it can send data back out as a result (return values).
+
+Now we will take an application of python to explain the function features according to it:
+
+1. Code reusablity: We need not to write every time when need to implement a particular feature. Function allows use to write the feature time 
+and use it multiple times.
+For example:  applications like Plugins, specific features in a website work with a single click of a button.
+
+2.Modularity: Functions helps us to divide a huge application into differents and small testable pieces of code.
+For example : Creating a huge application. Which is like a huge block of code. Then, developers code divide the 
+application into small functions each reusable, iterable for different test cases.
+
+3.Mainability: 
